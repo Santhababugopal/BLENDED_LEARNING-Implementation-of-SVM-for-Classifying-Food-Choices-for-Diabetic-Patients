@@ -35,7 +35,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 #step-1:Load the dataset from the url
-data=pd.read_csv("/content/food_items_binary.csv")
+data=pd.read_csv("/content/food_items_binary (1).csv")
 
 #step-2:Data Exploration
 #Display the first few rows and the colum names for verification
@@ -76,15 +76,13 @@ grid_search.fit(x_train,y_train)
 
 #Extract the best model
 best_model=grid_search.best_estimator_
-print("Name: MITHUN KALYAN")
-print("Register Number: 212223040142")
+print("SANTHABABU G")
+print("212224040292")
 print("Best Parameter:",grid_search.best_params_)
 
 y_pred=best_model.predict(x_test)
 
 accurancy=accuracy_score(y_test,y_pred)
-print("Name: AMIRTHA VARSHINI M")
-print("Register Number: 212224230017")
 print("Accuracy:",accurancy)
 print("Classification Report:\n",classification_report(y_test,y_pred))
 
@@ -98,9 +96,10 @@ plt.show()
 ```
 
 ## Output:
-<img width="630" height="793" alt="image" src="https://github.com/user-attachments/assets/64730d12-e3e0-4694-a8df-7690c9fd4b29" />
+<img width="835" height="668" alt="image" src="https://github.com/user-attachments/assets/03500a0a-fe84-425f-bc48-44e3ed3e7aca" />
 
 <img width="778" height="449" alt="image" src="https://github.com/user-attachments/assets/8d3ece15-2a80-4d31-ae02-fc94853ddb46" />
+
 
 
 ## Result:
